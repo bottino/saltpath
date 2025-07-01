@@ -7,7 +7,5 @@ requires-python = ">=3.13"
 dependencies = [
     "geopandas>=1.1.1",
     "gpxpy>=1.6.2",
-    "jupyter>=1.1.1",
     "matplotlib>=3.10.3",
-    "notebook>=7.4.4",
 ]

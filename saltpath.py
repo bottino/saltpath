@@ -123,7 +123,6 @@ def export_to_gpx(gdf: gpd.GeoDataFrame, output_file: str) -> None:
         f.write(gpx.to_xml())
 
 
-# Step 3: Function to parse command-line arguments
 def parse_arguments():
     parser = argparse.ArgumentParser(
         description="Simplify a track on a GPX file, and outputs the simplified path and the tacks to an output directory."
